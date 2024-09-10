@@ -7,6 +7,7 @@ import Unlock from "./components/Unlock/Unlock";
 import Achievements from "./components/Achievements/Achievements";
 import Calender from "./components/Calender/Calender";
 import Customers from "./components/Customers/Customers";
+import CommunityUpdates from "./components/CommunityUpdates/CommunityUpdates";
 
 const Home = () => <div>
   <Nav />
@@ -17,6 +18,7 @@ const Home = () => <div>
   <Achievements />
   <Calender />
   <Customers />
+  <CommunityUpdates />
 </div>;
 
 function App() {
