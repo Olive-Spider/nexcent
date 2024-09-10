@@ -5,17 +5,17 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-lg">
+    <nav>
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               {/* Logo and Company Name */}
               <img src="/logo.png" alt="Company Logo" className="h-8 w-8" />
-              <span className="text-xl font-bold">Nexcent</span>
+              <span className="text-xl font-bold text-N">Nexcent</span>
             </Link>
           </div>
-          <div className="hidden md:flex items-center space-x-6">
+          <div className="hidden text-[#18191F] font-medium text-base leading-4 md:flex items-center space-x-6">
             {/* Navigation Buttons */}
             <Link to="/" className="text-gray-800 hover:text-blue-600 transition">
               Home
@@ -57,12 +57,11 @@ function Nav() {
               FAQ
             </Link>
           </div>
-          <div className="hidden md:flex items-center space-x-4">
-            {/* Login and Sign In Buttons */}
-            <button className="px-4 py-2 text-white bg-blue-600 rounded hover:bg-blue-700 transition">
+          <div className="hidden md:flex items-center space-x-4 font-medium text-sm">
+            <button className="px-4 py-2 gap-[14px] text-primary bg-neutral-Silver rounded hover:bg-blue-700 transition">
               Login
             </button>
-            <button className="px-4 py-2 text-blue-600 border border-blue-600 rounded hover:bg-blue-600 hover:text-white transition">
+            <button className="px-3 py-3 gap-[10px] rounded-md text-neutral-White bg-primary">
               Sign Up
             </button>
           </div>
