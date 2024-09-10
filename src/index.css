@@ -5,7 +5,11 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #F5F7FA;
-  padding: 24px;
+  /* padding: 24px; */
+}
+
+body {
+  padding: 24px; 
 }
 
 .scrollbar-hide::-webkit-scrollbar {

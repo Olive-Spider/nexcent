@@ -14,7 +14,7 @@ function Hero() {
         </button>
       </div>
 
-      <div className="p-8 md:px-24 md:py-36">
+      <div className="md:px-24 md:py-36">
         <img
           src={HeroImage}
           alt="Hero"

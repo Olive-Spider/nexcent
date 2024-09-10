@@ -3,12 +3,14 @@ import Nav from "./components/Nav/Nav";
 import Hero from "./components/Hero/Hero";
 import Clients from "./components/Clients/Clients"
 import Community from "./components/Community/Community";
+import Unlock from "./components/Unlock/Unlock";
 
 const Home = () => <div>
   <Nav />
   <Hero />
   <Clients />
   <Community />
+  <Unlock />
 </div>;
 
 function App() {

@@ -1,10 +1,10 @@
-import Logo1 from '../../../public/logo1.png';
-import Logo2 from '../../../public/logo2.png';
-import Logo3 from '../../../public/logo3.png';
-import Logo4 from '../../../public/logo4.png';
-import Logo5 from '../../../public/logo5.png';
-import Logo6 from '../../../public/logo6.png';
-import Logo7 from '../../../public/logo7.png';
+import Logo1 from '/logo1.png';
+import Logo2 from '/logo2.png';
+import Logo3 from '/logo3.png';
+import Logo4 from '/logo4.png';
+import Logo5 from '/logo5.png';
+import Logo6 from '/logo6.png';
+import Logo7 from '/logo7.png';
 
 function Clients() {
   return (
