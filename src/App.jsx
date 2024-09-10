@@ -8,6 +8,7 @@ import Achievements from "./components/Achievements/Achievements";
 import Calender from "./components/Calender/Calender";
 import Customers from "./components/Customers/Customers";
 import CommunityUpdates from "./components/CommunityUpdates/CommunityUpdates";
+import CallToAction from "./components/CTA/CallToAction.jsx";
 import Footer from "./components/Footer/Footer";
 const Home = () => <div>
   <Nav />
@@ -19,6 +20,7 @@ const Home = () => <div>
   <Calender />
   <Customers />
   <CommunityUpdates />
+  <CallToAction />
   <Footer />
 </div>;
 
