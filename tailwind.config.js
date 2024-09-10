@@ -7,7 +7,7 @@ export default {
   theme: {
     colors: {
       'primary': '#ff0000',
-      'secondary': '263238',
+      'secondary': '#263238',
       'info': '#2194f3',
       'neutral': {
         black: '#263238',

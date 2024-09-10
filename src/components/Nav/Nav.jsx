@@ -6,8 +6,8 @@ function Nav() {
 
   return (
     <nav>
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between h-16">
+      <div className="mx-auto lg:px-16">
+        <div className="flex justify-between">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               {/* Logo and Company Name */}
@@ -15,7 +15,7 @@ function Nav() {
               <span className="text-xl font-bold text-N">Nexcent</span>
             </Link>
           </div>
-          <div className="hidden text-[#18191F] font-medium text-base leading-4 md:flex items-center space-x-6">
+          <div className="hidden text-[#18191F] font-medium text-base leading-4 md:flex items-center space-x-4 lg:space-x-6">
             {/* Navigation Buttons */}
             <Link to="/" className="text-gray-800 hover:text-blue-600 transition">
               Home
