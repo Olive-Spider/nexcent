@@ -7,10 +7,10 @@ function CommunityUpdates() {
     <section className="py-12 md:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center">
         <h2 className="text-4xl leading-[44px] font-semibold text-neutral-D_Grey mb-4 lg:px-64">
-          Manage your entire Community Updates in a single system
+        Caring is the new marketing
         </h2>
-        <p className="text-base font-normal text-neutral-Grey mb-10">
-          Who is Nextcent suitable for?
+        <p className="text-base font-normal text-neutral-Grey mb-10 lg:px-40">
+        The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-7">
