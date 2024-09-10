@@ -1,7 +1,7 @@
-import HeroImage from '../../../public/Illustration.png';
+import HeroImage from '/Illustration.png';
 function Hero() {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center lg:px-16">
+    <section className="flex flex-col-reverse md:flex-row items-center lg:px-32">
       <div className="w-full px-6 md:px-12 lg:px-20 gap-8">
         <h2 className="text-5xl leading-[76px] md:text-[64px] font-semibold text-secondary">
         Lessons and insights <br /> <span className='text-primary'>from 8 years</span>
