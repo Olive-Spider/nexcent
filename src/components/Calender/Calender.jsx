@@ -2,7 +2,7 @@ import CalenderImage from "/pana.png";
 
 function Calender() {
   return (
-    <section className="py-12 md:py-20 bg-white">
+    <section>
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center gap-8">
         <div className="w-full md:w-1/2">
           <img
