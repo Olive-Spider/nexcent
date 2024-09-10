@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Clients from "./components/Clients/Clients"
 import Community from "./components/Community/Community";
 import Unlock from "./components/Unlock/Unlock";
+import Calender from "./components/Calender/Calender";
 
 const Home = () => <div>
   <Nav />
@@ -11,6 +12,7 @@ const Home = () => <div>
   <Clients />
   <Community />
   <Unlock />
+  <Calender />
 </div>;
 
 function App() {
