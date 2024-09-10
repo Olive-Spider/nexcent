@@ -4,7 +4,7 @@ import CommunityUpdatesLogo3 from "/image 20.png";
 
 function CommunityUpdates() {
   return (
-    <section className="py-12 md:py-20 bg-white">
+    <section className="py-6 bg-neutral-White">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center">
         <h2 className="text-4xl leading-[44px] font-semibold text-neutral-D_Grey mb-4 lg:px-64">
         Caring is the new marketing

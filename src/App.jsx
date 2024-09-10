@@ -8,7 +8,7 @@ import Achievements from "./components/Achievements/Achievements";
 import Calender from "./components/Calender/Calender";
 import Customers from "./components/Customers/Customers";
 import CommunityUpdates from "./components/CommunityUpdates/CommunityUpdates";
-
+import Footer from "./components/Footer/Footer";
 const Home = () => <div>
   <Nav />
   <Hero />
@@ -19,6 +19,7 @@ const Home = () => <div>
   <Calender />
   <Customers />
   <CommunityUpdates />
+  <Footer />
 </div>;
 
 function App() {
